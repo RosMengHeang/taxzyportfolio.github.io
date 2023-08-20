@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Tektur:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/31c69d599c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <a href = "#header"><img src="image/logo1.png" class = "logo"></a>
+            <!-- <a>Taxzy</a> -->
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Egineering Student</p>
+            <h1>Hi , I'm Taxzy First Year Student</h1>
+        </div>
+    </div>
+</div>
+<!-- ----------------about----------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/image2.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero facere natus possimus assumenda repellat. Nisi quae reiciendis corrupti facere veniam? Reiciendis culpa perspiciatis, illo dicta ducimus adipisci ab modi enim?
+                Distinctio quas molestiae quia at ullam optio qui quod, harum, in vero voluptates ea delectus minus, nisi voluptate fugit! Neque dolorem numquam, aliquid architecto nemo sint ullam libero consequuntur nulla?
+                Inventore minus vero atque non commodi sed hic ea rem praesentium eius, maxime corrupti dolores perspiciatis numquam esse recusandae exercitationem reiciendis! Consectetur animi voluptate soluta consequatur, quaerat nostrum magni optio.
+               </p>
+
+               <div class="tab-title">
+                   <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                   <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                   <p class="tab-link" onclick="opentab('education')">Education</p>
+               </div>
+               <div class="tab-content active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Design Web/App Interfaces</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Build App IOS/Android</li>
+                </ul>
+               </div>
+               <div class="tab-content" id="experience">
+                <ul>
+                    <li><span>This is Experience</span><br>Design Web/App Interfaces</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Build App IOS/Android</li>
+                </ul>
+               </div>
+               <div class="tab-content" id="education">
+                <ul>
+                    <li><span>This is Education</span><br>Design Web/App Interfaces</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Build App IOS/Android</li>
+                </ul>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------service-------------- -->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">My Service</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, eius odio? Natus sint dolores cum! Sint quis non soluta dicta minus a doloremque similique sunt! Adipisci culpa velit nobis vitae!
+                Veritatis</p>
+                <br><br>
+                <a href = "#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UX/UI</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, eius odio? Natus sint dolores cum! Sint quis non soluta dicta minus a doloremque similique sunt! Adipisci culpa velit nobis vitae!
+                Veritatis</p>
+                <br><br>
+                <a href = "#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, eius odio? Natus sint dolores cum! Sint quis non soluta dicta minus a doloremque similique sunt! Adipisci culpa velit nobis vitae!
+                Veritatis</p>
+                <br><br
+                <a href = "#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------portfolio--------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class = "sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src = "image/logo.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app help people to connected to the world.Download it on AppStor Now!</p>
+                    <a href = ""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src = "image/logo.png">
+                <div class="layer">
+                    <h3>Media App</h3>
+                    <p>This app help people to connected to the world.Download it on AppStor Now!</p>
+                    <a href = ""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src = "image/logo.png">
+                <div class="layer">
+                    <h3>Clone App</h3>
+                    <p>This app help people to connected to the world.Download it on AppStor Now!</p>
+                    <a href = ""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- --------------CONTACT---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mengheang.ros22@kit.edu.kh</p>
+                <p><i class="fa-solid fa-square-phone"></i>011 375090</p>
+                <div class="social-icon">
+                    <a target="_blank" href="https://web.facebook.com/taxzyraze/"><i class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/whoistaxzy/"><i class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="https://discord.com/invite/2MBgrGkKYv"><i class="fa-brands fa-discord"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/taxzy"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./image/logo.png" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Taxzy. Made for Personal Portfolio</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName('tab-link');
+    var tabcontents = document.getElementsByClassName('tab-content');
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove('active-link');
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+    }
+
+
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxhy9F8h29dauvpfR0kvxOHrGl-Qy3HlWblR_w0oej_P8iG39r_IO5Op_FhIdmht6BvCg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html> 
